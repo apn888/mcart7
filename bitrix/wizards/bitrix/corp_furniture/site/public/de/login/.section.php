@@ -1,6 +1,0 @@
-<?
-$sSectionName = "Login";
-$arDirProperties = array(
-
-);
-?>
