@@ -1,9 +1,36 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 <?
 $aMenuLinks = Array(
 	Array(
-		"Компания", 
-		"company/", 
+		"Главная", 
+		"index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ЛК продавца", 
+		"/lichnyy-kabinet-prodavtsa/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ЛК покупателя", 
+		"/lichnyy-kabinet-pokupatelya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Объявления", 
+		"/obyavleniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О сервисе", 
+		"/o-servise/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -16,8 +43,15 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Продукция", 
-		"products/", 
+		"Компания", 
+		"company/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"contacts/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -30,8 +64,8 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Контакты", 
-		"contacts/", 
+		"Продукция", 
+		"products/", 
 		Array(), 
 		Array(), 
 		"" 
