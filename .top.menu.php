@@ -12,14 +12,14 @@ $aMenuLinks = Array(
 		"/lichnyy-kabinet-prodavtsa/", 
 		Array(), 
 		Array(), 
-		"" 
+		"CSite::InGroup(array(1,7))" 
 	),
 	Array(
 		"ЛК покупателя", 
 		"/lichnyy-kabinet-pokupatelya/", 
 		Array(), 
 		Array(), 
-		"" 
+		"CSite::InGroup(array(1,8))" 
 	),
 	Array(
 		"Объявления", 
