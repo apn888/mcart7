@@ -1,6 +1,14 @@
 <?php
 $arUrlRewrite=array (
-  4 => 
+  21 => 
+  array (
+    'CONDITION' => '#^/lichnyy-kabinet-prodavtsa/moi-obyavleniya/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/lichnyy-kabinet-prodavtsa/moi-obyavleniya/index.php',
+    'SORT' => 100,
+  ),
+  16 => 
   array (
     'CONDITION' => '#^/o-servise/vakansii/#',
     'RULE' => '',
@@ -8,9 +16,17 @@ $arUrlRewrite=array (
     'PATH' => '/o-servise/vakansii/index.php',
     'SORT' => 100,
   ),
-  3 => 
+  14 => 
   array (
-    'CONDITION' => '#^/obyavleniya/#',
+    'CONDITION' => '#^/o-servise/novosti/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/o-servise/novosti/index.php',
+    'SORT' => 100,
+  ),
+  22 => 
+  array (
+    'CONDITION' => '#^/announcement/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/obyavleniya/index.php',
@@ -32,7 +48,7 @@ $arUrlRewrite=array (
     'PATH' => '/products/index.php',
     'SORT' => 100,
   ),
-  2 => 
+  5 => 
   array (
     'CONDITION' => '#^/news/#',
     'RULE' => '',
