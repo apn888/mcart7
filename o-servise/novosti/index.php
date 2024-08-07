@@ -83,7 +83,7 @@ $APPLICATION->SetTitle("Новости");
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "#SITE_DIR#/o-servise/novosti/",
-			"detail" => "#SITE_DIR#/o-servise/novosti/#ELEMENT_CODE#/",
+			"detail" => "#ELEMENT_CODE#/",
 		)
 	),
 	false
